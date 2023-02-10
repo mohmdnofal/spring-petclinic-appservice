@@ -1,0 +1,3 @@
+CREATE USER ''@'%' IDENTIFIED BY 'petclinic';
+GRANT ALL PRIVILEGES ON petclinic.* TO ''@'%';
+FLUSH PRIVILEGES;
